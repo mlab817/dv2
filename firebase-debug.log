@@ -1,0 +1,55 @@
+[debug] [2021-02-19T07:36:18.984Z] ----------------------------------------------------------------------
+[debug] [2021-02-19T07:36:18.988Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-19T07:36:18.989Z] CLI Version:   7.15.0
+[debug] [2021-02-19T07:36:18.989Z] Platform:      win32
+[debug] [2021-02-19T07:36:18.989Z] Node Version:  v14.15.0
+[debug] [2021-02-19T07:36:18.991Z] Time:          Fri Feb 19 2021 15:36:18 GMT+0800 (Philippine Standard Time)
+[debug] [2021-02-19T07:36:18.991Z] ----------------------------------------------------------------------
+[debug] [2021-02-19T07:36:18.991Z] 
+[debug] [2021-02-19T07:36:19.006Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-19T07:36:19.007Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mlab8\Desktop\quasar\dv2
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2021-02-19T07:36:44.420Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-19T07:36:44.421Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-19T07:36:44.898Z] <<< HTTP RESPONSE 200
+[debug] [2021-02-19T07:36:44.911Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2021-02-19T07:36:46.095Z] <<< HTTP RESPONSE 409
+[debug] [2021-02-19T07:36:46.095Z] <<< HTTP RESPONSE BODY
+[debug] [2021-02-19T07:36:46.100Z] HTTP Error: 409, Requested entity already exists
+[debug] [2021-02-19T07:36:46.293Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:486:12)
+    at Request.<anonymous> (C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:486:12)
+    at IncomingMessage.<anonymous> (C:\Users\mlab8\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
