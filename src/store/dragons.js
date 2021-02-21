@@ -4,7 +4,7 @@ const collection = firebaseFs.collection('dragons')
 
 const state = () => {
   return {
-    dragons: {}
+    dragons: []
   }
 }
 
@@ -12,13 +12,25 @@ const actions = {
   loadDragons({ commit }) {
     collection
       .onSnapshot(querySnapshot => {
-        querySnapshot.forEach(doc => {
-          console.log(doc.id)
-          console.log(doc.data())
-          commit('ADD_DRAGON', {
-            id: doc.id,
-            data: doc.data()
-          })
+        querySnapshot.docChanges().forEach(change => {
+          if (change.type === 'added') {
+            commit('ADD_DRAGON', {
+              key: change.doc.id,
+              ...change.doc.data()
+            })
+          }
+          if (change.type === 'modified') {
+            commit('UPDATE_DRAGON', {
+              id: change.doc.id,
+              data: {
+                key: change.doc.id,
+                ...change.doc.data()
+              }
+            })
+          }
+          if (change.type === 'removed') {
+            commit('REMOVE_DRAGON', change.doc.id)
+          }
         })
       }, err => console.log(err.message))
   },
@@ -34,7 +46,14 @@ const actions = {
 
 const mutations = {
   ADD_DRAGON(state, value) {
-    state.dragons[value.id] = value.data
+    state.dragons.push(value)
+  },
+  UPDATE_DRAGON(state, value) {
+    const index = state.dragons.findIndex(d => d.key === value.id)
+    state.dragons.splice(index, 1, value.data)
+  },
+  REMOVE_DRAGON(state, value) {
+    delete state.dragons[value.id]
   }
 }
 
