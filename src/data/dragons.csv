@@ -1,0 +1,216 @@
+id,name,element,type,star
+1,Wind Dragon,Wind,HP,2
+2,Six Legged Dragon,wind,HP,3
+3,Blue Dragon,wind,ATK,4
+Fire Dragon,fire,ATK,3
+Lightning Dragon,fire,HP/ATK,4
+Lava Dragon,fire,HP/ATK,2
+Phoenix,fire,ATK,3
+Frost Dragon,water,ATK,4
+Nessie,water,HP,4
+Tail Dragon,water,HP/DEF,2
+Water Dragon,water,HP/DEF,3
+Hydra Dragon,earth,HP/ATK,3
+Power Dragon,earth,ATK,4
+Boulder Dragon,earth,DEF,3
+Underground Dragon,earth,DEF,3
+Fairy Dragon,water,ATK,2
+Lady Dragon,wind,HP/DEF,3
+Egg Dragon,earth,DEF,3
+Hell Dragon,fire,ATK/DEF,4
+Angel Dragon,light,HP/DEF,4
+Alien Dragon,wind,ATK/DEF,3
+Mini Dragon,water,ATK/DEF,3
+Swamp Dragon,water,HP/DEF,3
+Fat Dragon,earth,HP,3
+Spike Dragon,fire,DEF,3
+Insect Dragon,fire,ATK/DEF,3
+Leaf Dragon,earth,DEF,3
+Frog Dragon,water,DEF,3
+Wing Dragon,wind,ATK/DEF,2
+Sand Dragon,fire,ATK/DEF,3
+Smart Dragon,earth,DEF,2
+Music Dragon,wind,HP,3
+Black Dragon,dark,HP/ATK,4
+Emerald Dragon,light,HP/DEF,4
+Ligon,light,HP/ATK,3
+Chameleon Dragon,light,HP,3
+Chickenhead Dragon,light,HP/DEF,3
+Kangarabbit Dragon,light,HP/ATK,3
+Cupid Dragon,light,ATK,3
+Gold Dragon,light,HP/DEF,3
+Slime Dragon,water,HP/DEF,3
+Blade Dragon,dark,ATK,3
+Metal Dragon,dark,HP/ATK,3
+Mummy Dragon,dark,HP/ATK,3
+Hedgebat Dragon,dark,ATK/DEF,3
+Skelegon,dark,HP/ATK,3
+Serpent Dragon,dark,ATK,3
+Centipede Dragon,dark,ATK,3
+Tiger Dragon,earth,HP,3
+Goldencrow Dragon,fire,HP/DEF,3
+Metal Magnet Dragon,wind,ATK/DEF,4
+Dark Nix,dark,HP/ATK,4
+White Dragon,light,HP/DEF,4
+Hyena Dragon,dark,HP/ATK,3
+Ghost Dragon,dark,ATK,4
+Golden Horn,earth,HP/DEF,3
+Shark Dragon,water,ATK,3
+Guardian,wind,HP,4
+Crescent,dark,HP/ATK,4
+Rainbow Dragon,light,HP,3
+Tatoo,earth,DEF,3
+Spine,earth,ATK/DEF,3
+God Dragon Jr.,light,ATK/DEF,4
+Frosty,wind,DEF,4
+Dark Frosty,dark,ATK,4
+Hyeonmu Dragon,water,DEF,3
+X-mas Dragon,light,DEF,3
+Demong & Gargoyle,dark,ATK/DEF,3
+Siamese Dragon,light,HP,3
+Bone Head Dragon,fire,HP/ATK,3
+Venezie,dark,DEF,3
+Mustard Hammer,earth,HP/DEF,3
+Red Wyvern,fire,ATK,3
+Haetai Dragon,wind,DEF,4
+Scorpion Dragon,earth,ATK/DEF,3
+Knight Dragon,light,DEF,4
+Spicy,light,HP/ATK,4
+Rafael,light,HP/DEF,4
+Baal,dark,HP/ATK,4
+Clown Dragon,light,HP,4
+Pharaoh Dragon,light,ATK/DEF,4
+Shadow Dragon,dark,ATK,4
+Marshmallow Dragon,light,DEF,4
+Frankenstegon,dark,HP,4
+Ninja Dragon,dark,ATK,4
+Dragonoid,dark,HP/DEF,4
+Volcano,fire,ATK/DEF,4
+Blue Lightning,water,HP/ATK,4
+Witch Dragon,dark,HP/ATK,4
+Purple Lips,water,HP/DEF,4
+Python,earth,HP/DEF,4
+Iron Dragon,fire,DEF,4
+Oro,wind,ATK/DEF,4
+Jaryong,fire,HP/ATK,4
+Battle Dragon,fire,ATK,4
+Devilgon,fire,ATK,3
+Violet Dragon,water,HP/DEF,3
+Neon Dragon,light,HP/DEF,3
+Flame Dragon,fire,HP/DEF,3
+Black Queen,dark,HP/DEF,4
+Sigma Dragon,dark,HP/DEF,4
+Lambgon,earth,ATK,4
+Argo,fire,HP/ATK,4
+Hercules Dragon,earth,DEF,4
+Totem Dragon,wind,DEF,3
+Eraser Dragon,fire,HP/ATK,4
+Timber Dragon,earth,DEF,3
+Cobra Dragon,dark,ATK/DEF,3
+Rupia Dragon,water,ATK/DEF,3
+Typhoon Dragon,wind,HP,3
+Stud Dragon,water,HP,3
+Flower Dragon,earth,ATK/DEF,3
+Cloud Dragon,wind,HP,3
+Redbull Dragon,fire,HP/DEF,3
+Megalodon,water,HP,4
+Aurora Dragon,light,DEF,4
+Catsgon,dark,HP/ATK,4
+Ignis,fire,ATK/DEF,4
+Tartaros,dark,HP/DEF,4
+Shooting Star,light,HP/ATK,4
+Dark Fall Dragon,dark,HP/ATK,4
+Hungry Dragon,earth,ATK/DEF,4
+Orpheus,earth,ATK/DEF,4
+Luminesce,water,ATK,4
+Burnesce,fire,ATK,4
+Goblin Dragon,light,HP,4
+Jet Dragon,wind,ATK,4
+Tutankha,dark,HP/ATK,4
+Mud Dragon,earth,DEF,4
+Bomber Dragon,fire,ATK,4
+Sanarae,wind,DEF,5
+Tilant,water,DEF,5
+Nox,dark,HP/ATK,4
+Ilios,light,HP/DEF,4
+Lucifer,chaos,DEF,5
+Holly,holy,ATK,5
+Priest,holy,ATK/DEF,5
+Gorgon,earth,ATK/DEF,5
+Colossus,earth,ATK/DEF,5
+Titan,earth,DEF,5
+Blizzard,water,ATK,5
+Undine,water,HP/ATK,5
+Poseidon,water,ATK,6
+Ghast,wind,ATK,5
+Thunder Lips,wind,HP,5
+Hurricane,wind,HP/DEF,6
+Death Reaper,fire,HP/ATK,5
+Blaze,fire,ATK,5
+Igna,fire,HP/DEF,5
+Raygon,light,DEF,5
+Solar,light,ATK,5
+Dark Knight,dark,HP/DEF,5
+Black Hole,dark,HP/ATK,5
+Maria,holy,HP/ATK,5
+Citaell,holy,HP,5
+Valefor Dragon,chaos,ATK/DEF,5
+Ereboss,dark,ATK/DEF,5
+Rudra,wind,HP,5
+Aton,light,ATK,5
+Angel Jr.,light,HP,5
+Purple Peek,dark,ATK/DEF,5
+Pink Bell,earth,HP/ATK,4
+Shaman Dragon,dark,HP/DEF,4
+Coelacanth,water,HP/ATK,4
+Figar,fire,ATK,4
+Predator,earth,ATK/DEF,4
+Zephyros,wind,HP/ATK,5
+Ruthperon,water,HP,5
+Crystal Dragon,dark,HP/DEF,5
+Desperatio,fire,ATK/DEF,5
+Optatio,wind,ATK,5
+Lolli,earth,HP/DEF,5
+Apple Chick,earth,HP/ATK,5
+Tropheus,water,HP/DEF,5
+Xenos,water,HP/DEF,5
+Parcel,wind,HP/ATK,5
+Pop Dragon,wind,HP/DEF,4
+Bagma,light,ATK/DEF,5
+Jin,earth,HP/ATK,5
+Dargos,dark,HP/ATK,6
+Gaoron,dark,DEF,5
+Woods,water,ATK/DEF,5
+Tolly,earth,DEF,4
+Uchi,fire,ATK,4
+Ullr,light,HP/ATK,5
+Spiral Dragon,earth,ATK,4
+Godium,dark,ATK,5
+Bluethunder,wind,HP/DEF,5
+Velvet Dragon,dark,HP/ATK,4
+Littlewings Dragon,wind,ATK/DEF,5
+Nowaema,holy,HP/DEF,5
+Janer,chaos,ATK,5
+Griffar,fire,DEF,4
+Deva Dragon,light,ATK/DEF,4
+Black Armor Dragon,dark,DEF,4
+Sura Dragon,fire,ATK,5
+Luton Dragon,earth,HP/DEF,5
+Popon Dragon,earth,HP,5
+Lupo Dragon,dark,HP,5
+Mushroom Dragon,earth,ATK,5
+Estimia,earth,HP/DEF,5
+Frostraptor Dragon,dark,HP/ATK,5
+Mutant Egg Dragon,earth,ATK,5
+Rudolph Dragon,light,HP,5
+Hurudo Dragon,shadow,HP,5
+Mooda,shadow,ATK,5
+Psyker Dragon,shadow,DEF,5
+Wonder Dragon,chaos,ATK,4
+Flamma Dragon,fire,HP,5
+Kurupa,light,ATK,5
+Party Dragon,light,HP/ATK,5
+Littio,wind,ATK,5
+Barlog,chaos,HP,6
+La Sola,fire,ATK,5
+Naga,water,HP,5
